@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       label
+       {
+            display:inline-block;
+            width:110px;
+            margin:10px;
+            
+       }
+       #form
+       {
+           background-color:yellow;
+           border-radius:10px;
+           padding-top:50px;
+           padding-left:10px;
+           padding-right:20px;
+           padding-bottom:90px;
+           width:35%;
+           margin:auto;
+       }
+       .submit
+       {
+           padding:10px;
+           width:100px;
+           background-color: black;
+           color:white;
+           border:1px solid black;
+           margin-top:10px;
+           margin-left:10px;
+           padding:10px;
+       }
+       big
+       {
+           text-align:center;
+           display: block;
+           margin-top:30px;
+           margin-bottom:10px;
+           font-weight:bold;
+           border:1px solid black;
+       }
+       img
+       {
+           display: block;
+           width:35%;
+           margin-left:auto;
+           margin-right:auto;
+       }
+       h3
+       {
+           text-align:center;
+           background-color: aquamarine;
+           border:1px solid black;
+
+       }
+       marquee
+       {
+           font-weight: bold;
+           font-size: 16px;
+           color:green;
+       }
+       .div
+       {
+           
+           text-align: center;
+           margin:20px;
+           
+       }
+       span 
+       {
+           border:1px solid black;
+           background-color:tomato;
+           letter-spacing: 2px;
+           font-size: 30px;
+
+       }
+    </style>
+</head>
+<body>
+    <marquee width="100%" height="50px" direction="left"  behaviour="scroll" scrollamount="10">Welcome to Codm registration</marquee>
+        <h3>Tournament registration Going On</h3>
+        <a href="https://www.youtube.com/" target="blank">
+        <img src="Hidora kai.jpg" alt="youtube.com">
+        </a>
+
+        <div class="div"><span><b>Registration</b></span></div>
+        <form id="form" action="#">
+            <div>
+                <label  for="fname" style="color:red"><b>First name :</b></label>
+                <input type="text" id="fname" name="fname" required><br>
+            </div>
+            <div>
+                <label for="lname" style="color:red"><b>Last name :</b></label>
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+            <div>
+                <label  for="email" style="color:red"><b>Email :</b></label>
+                <input type="email" id="email" name="email"><br>
+            </div>
+            <div>
+                <label for="pass" style="color:red"><b>Password :</b></label>
+                <input type="password" id="pass" name="password"><br>
+            </div>
+            <div>
+                <label for="num" style="color:red"><b>Number:</b></label>
+                <input type="number" id="num" name="number"><br>
+            </div>
+            
+            <div>
+                <label style="color:red"><b>Gernder:</b></label>
+                <input type="radio" id="male" name="gender" Value="male">
+                <label  for="male">Male</label>
+                <input type="radio" id="Female" name="gender" Value="Female">
+                <label  for="Female">Female</label>
+            </div>
+            <div>
+                <label for="file" style="color:red"><b>Your photo:</b></label>
+                <input type="file" id="file" name="photo"><br>
+            </div>
+            <div>
+                <label for="date" style="color:red"><b>Your Birthday:</b></label>
+                <input type="date" id="date" name="Date"><br>
+            </div>
+            <div>
+                <label style="color:red"><b>Skills:</b></label>
+                <input type="checkbox" id="html" name="Skill1" Value="Html">
+                <label  for="html">HTML</label>
+                <input type="checkbox" id="Css" name="Skill2" Value="CSS">
+                <label  for="Css">CSS</label>
+            </div>
+            <div>
+                <label for="dept" style="color:red"><b>Department:</b></label>
+                <select id="dept" name="Department">
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="IPE">IPE</option>
+                </select>
+            </div>
+            <div>
+                <label for="message" style="color:red"><b>Message:</b></label>
+                <textarea row="20" col="30" name="message" id="message"></textarea>
+            </div>
+            <div>
+                <label for="browser" style="color:red"><b>Choose your browser:</b></label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Mozila">
+                    <option value="Chrome">
+                    <option value="Safari">
+                </datalist>
+            </div>
+            <div>
+                <input type="Submit" value="submit" class="submit">
+                <input type="reset"  value="reset" class="submit">
+            </div>
+        </form>
+</body>
+</body>
+</html>
+
+<-- Input type month o hoy -->
